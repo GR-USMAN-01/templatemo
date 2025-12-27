@@ -14,7 +14,7 @@ th{
 th:hover{
   color: rgb(0, 102, 255);
 }
-.table-bc:hover{
+.table-bc{
     border-bottom: 2px solid rgb(48, 227, 240);
     margin-bottom: 15px;
 }
@@ -29,6 +29,9 @@ th:hover{
 .table-pc:hover{
     border-bottom: 2px solid rgb(179, 8, 179);
     margin-bottom: 15px;
+}
+.inline-block-margin-left{
+  margin-left: 1000px;
 }
 .search-bar{
   text-align: center;
@@ -89,7 +92,7 @@ p.color{
   margin-top: 20px;
 }
  .margin-top{
-  margin-top: 60px;
+  margin-top: 80px;
  }
  .Our-Links{
    display: inline-block;
@@ -97,9 +100,61 @@ p.color{
  }
  .link{
   display: inline-block;
-   margin-left: 75px;
-   border: 1px solid black;
+   margin-left: 25px;
+   background-color: white;
+   margin-top: 10px;
  }
- .footer-cotent{
-    border: 1px solid black; 
+ a>img{
+  width: 25px;
+  display: inline-block;
  }
+ .pages{
+  width: 1350px;
+  background-color: white ;
+  height: 250px;
+}
+.page{
+  width: 50px;
+  background-color: rgba(193, 193, 193, 0.957);
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  height: 35px;
+  padding-top: 15px;
+  margin-top: 100px;
+}
+.previous{
+  display: inline-block;
+  width: 150px;
+  background-color: rgb(86, 154, 255);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  height: 35px;
+  padding-top: 15px;
+  margin-right: 400px;
+}
+.next-page{
+  display: inline-block;
+  width: 150px;
+  background-color: rgb(86, 154, 255);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  height: 35px;
+  padding-top: 15px;
+  margin-left: 400px;
+}
+.page-1{
+  background-color: rgb(86, 154, 255);
+}
+.page-2:hover,.page-3:hover,.page-4:hover{
+  background-color: rgb(86, 154, 255); 
+}
+.color-margin-left{
+  margin-left: 500px;
+  margin-top: 50px;
+  color: orangered;
+
+}
